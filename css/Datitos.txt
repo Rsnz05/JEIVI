@@ -1,0 +1,19 @@
+GRIS:
+#9B9B9B
+DORADO
+#EFB810
+
+                <ul class="list-inline list-inline-md">
+                  <li>
+                    <div class="unit unit-spacing-xs align-items-center">
+                      <div class="unit-left"><span class="icon text-middle mdi-phone-in-talk mdi"></span></div>
+                      <div class="unit-body"><a href="tel:#">+507 6580-6101</a></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit unit-spacing-xs align-items-center">
+                      <div class="unit-left"><span class="icon text-middle mdi-map-marker mdi"></span></div>
+                      <div class="unit-body"><a href="https://goo.gl/maps/zuCTP71cGHKNhwoC8">Panamá, Rio Abajo, Calle San Cristobal</a></div>
+                    </div>
+                  </li>
+                </ul>
