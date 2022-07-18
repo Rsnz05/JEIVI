@@ -1602,7 +1602,8 @@ body {
     font-weight: 400;
     color: #fff;
     width: 100%;
-    background-image: url('../images/background.svg');
+    /*background-image: url('../images/background.svg');*/
+    background-color:#17297f;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4454,8 +4455,7 @@ html:not(.lt-ie10) .not-animated {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    /*background: #ffffff;*/
-    background-image: url('../images/background.svg');
+    background: #17297f;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4541,8 +4541,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar {
     display: none;
-    /*background: #ffffff;*/
-    background-image: url('../images/background.svg');
+    background: #17297f;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5067,8 +5066,7 @@ html:not(.lt-ie10) .not-animated {
 	top: 0;
 	right: 0;
 	z-index: 1080;
-	/*background: #ffffff;*/
-    background-image: url('../images/background.svg');
+    background: #17297f;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
