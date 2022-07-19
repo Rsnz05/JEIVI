@@ -155,7 +155,6 @@ html p a:hover {
     background: url('../images/Gold.jpg');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.3px white;
 }
 
 /** @section Context Styles */
@@ -1475,6 +1474,11 @@ html [class*='section-'].section-bottom-0 {
 	}
 }
 
+.bg-img-1 {
+    background: url("../images/QuienesSomos.jpg") no-repeat center;
+    background-size: cover;
+}
+
 .bg-img-2 {
 	background: url("../images/bg-img-2.jpg") no-repeat center;
 	background-size: cover;
@@ -1602,8 +1606,13 @@ body {
     font-weight: 400;
     color: #fff;
     width: 100%;
-    /*background-image: url('../images/background.svg');*/
-    background-color:#17297f;
+    /*background color*/
+    background: #17297f; /* Old browsers */
+    background: -moz-linear-gradient(top, #17297f 89%, #1C275A 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #17297f 89%,#1C275A 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #17297f 89%,#1C275A 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17297f', endColorstr='#1C275A',GradientType=0 ); /* IE6-9 */
+    /*background color*/
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2346,18 +2355,18 @@ p + .list-marked {
 }
 
 .contact-list a.phone {
-	font-size: 18px;
-	font-weight: 600;
-	color: #EFB810;
-	font-family: "Ibarra Real Nova", serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: #fff;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	margin-left: 17px;
 }
 
 .contact-list a.mail {
-	font-size: 18px;
-	font-weight: 600;
-	color: #EFB810;
-	font-family: "Ibarra Real Nova", serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: #fff;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	margin-left: 17px;
 }
 
@@ -2383,11 +2392,11 @@ p + .list-marked {
 
 @media (min-width: 1200px) {
 	.contact-list a.phone {
-		font-size: 20px;
+		font-size: 17px;
 	}
 
     .contact-list a.mail {
-		font-size: 20px;
+		font-size: 17px;
 	}
 }
 
@@ -4152,7 +4161,7 @@ textarea.form-input {
 
 @media (min-width: 1200px) {
 	.post-classic__media + * {
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 }
 
@@ -4455,7 +4464,13 @@ html:not(.lt-ie10) .not-animated {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background: #17297f;
+    /*background color*/
+    background: #17297f; /* Old browsers */
+    background: -moz-linear-gradient(top, #17297f 89%, #1C275A 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #17297f 89%,#1C275A 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #17297f 89%,#1C275A 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17297f', endColorstr='#1C275A',GradientType=0 ); /* IE6-9 */
+    /*background color*/
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4541,7 +4556,13 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar {
     display: none;
-    background: #17297f;
+    /*background color*/
+    background: #17297f; /* Old browsers */
+    background: -moz-linear-gradient(top, #17297f 89%, #1C275A 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #17297f 89%,#1C275A 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #17297f 89%,#1C275A 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17297f', endColorstr='#1C275A',GradientType=0 ); /* IE6-9 */
+    /*background color*/
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5060,18 +5081,24 @@ html:not(.lt-ie10) .not-animated {
 	transform: translate3d(0, 0, 0);
 }
 
-.rd-navbar-static.rd-navbar--is-stuck, .rd-navbar-static.rd-navbar--is-clone {
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	z-index: 1080;
-    background: #17297f;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0px 3px 10px -5px black
-}
+    .rd-navbar-static.rd-navbar--is-stuck, .rd-navbar-static.rd-navbar--is-clone {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 1080;
+        /*background color*/
+        background: #17297f; /* Old browsers */
+        background: -moz-linear-gradient(top, #17297f 89%, #1C275A 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #17297f 89%,#1C275A 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #17297f 89%,#1C275A 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17297f', endColorstr='#1C275A',GradientType=0 ); /* IE6-9 */
+        /*background color*/
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 3px 10px -5px black
+    }
 
 .rd-navbar-static .rd-navbar--has-dropdown {
 	position: relative;
